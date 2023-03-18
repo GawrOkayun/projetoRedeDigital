@@ -22,7 +22,7 @@ const Testimonial = () => {
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            What Our <span>Clients</span> Say <br /> About Us.
+            O que quem usufrui da <span>Rede Digital</span> diz <br /> sobre nós:
           </h2>
         </div>
         <div className="testimonials-one__carousel-outer">
@@ -32,13 +32,10 @@ const Testimonial = () => {
                 <div className="testimonials-one__single">
                   <div className="testimonials-one__inner">
                     <p>
-                      This is due to their excellent service, competitive
-                      pricing and <br /> customer support. It’s throughly
-                      refresing to get such a personal <br /> touch. Duis aute
-                      irure dolor in reprehenderit.
+                      Me tiraram da rua e me deram uma vida babadeira 😭<br /> Só tenho a agradecer a estes rapazes maravilhosos. <br /> Que Deus abençoe.
                     </p>
-                    <h3>Shirley Smith</h3>
-                    <span>Our Customers</span>
+                    <h3>Brandon Jesus</h3>
+                    <span>Menor apreendido</span>
                     <img
                       src="/assets/images/resources/testi-1-1.png"
                       alt="Awesome Image"

@@ -11,23 +11,20 @@ const CallToAction = () => {
                             <div className="cta-one__content">
                                 <i className="cta-one__icon dimon-icon-data1"></i>
                                 <div className="block-title text-left">
-                                    <h2 className="block-title__title">Powerful <span>Tools</span> for Your Customers.
+                                    <h2 className="block-title__title">Uma poderosa <span>ferramenta</span> para a sociedade.
                                     </h2>
                                 </div>
                                 <div className="cta-one__text">
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur.</p>
+                                    <p>Projetos sociais sofrem com a falta de divulgação. No entanto, com o <span>Projeto Rede Digital</span>, poderemos promover o seguinte:</p>
                                 </div>
                                 <ul className="list-unstyled">
-                                    <li><i className="fa fa-check"></i>Refresing to get such a personal touch.</li>
-                                    <li><i className="fa fa-check"></i>Duis aute irure dolor in reprehenderit in
-                                        voluptate.
+                                    <li><i className="fa fa-check"></i>Democratizar o acesso à informação</li>
+                                    <li><i className="fa fa-check"></i>Aumentar o fluxo de auxiliados por projetos sociais
                                     </li>
-                                    <li><i className="fa fa-check"></i>Velit esse cillum dolore eu fugiat nulla
-                                        pariatur.
+                                    <li><i className="fa fa-check"></i>Luta por uma sociedade menos desigual
                                     </li>
                                 </ul>
-                                <a href="#" className="thm-btn"><span>Get Started</span></a>
+                                <a href="#" className="thm-btn"><span>Acessar a página de programas</span></a>
                             </div>
                         </div>
                     </div>
