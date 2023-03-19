@@ -19,7 +19,7 @@ import Subscribe from "../components/Subscribe";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Dimon - React Next App Landing Page Template">
+    <Layout pageTitle="Projeto Rede Digital">
         <NavOne />
         <Banner />
         <Features />

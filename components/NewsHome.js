@@ -7,7 +7,7 @@ const NewsHome = () => {
             <section className="blog-one blog-one__home thm-gray-bg" id="news">
                 <div className="container">
                     <div className="block-title text-center">
-                        <h2 className="block-title__title">Checkout Our <span>Latest</span> <br /> News & Articles.
+                        <h2 className="block-title__title">Veja nossos últimos <span>projetos sociais</span> <br /> impulsionados:
                         </h2>
                     </div>
                     <div className="row">
@@ -28,12 +28,11 @@ const NewsHome = () => {
                                     </ul>
                                     <h3 className="blog-one__title">
                                         <Link href="/news-details">
-                                        <a>Pre and post launch mobile app marketing pitfalls to
-                                            avoid</a>
+                                        <a>Prefeitura do Rio lança Programadores Cariocas, curso voltado para formação de jovens vulneráveis</a>
                                         </Link>
                                     </h3>
                                     <Link href="/news-details">
-                                    <a className="blog-one__link">Read More</a>
+                                    <a className="blog-one__link">Ler mais</a>
                                     </Link>
                                 </div>
                             </div>
@@ -55,13 +54,11 @@ const NewsHome = () => {
                                     </ul>
                                     <h3 className="blog-one__title">
                                         <Link href="/news-details">
-                                        <a>It is all exactly as i said, but i don't like it
-                                            let's unpack
-                                            that</a>
+                                        <a> As Naves do Conhecimento democratizam o acesso ao universo digital em ambientes colaborativos e criativos.</a>
                                         </Link>
                                     </h3>
                                     <Link href="/news-details">
-                                    <a className="blog-one__link">Read More</a>
+                                    <a className="blog-one__link">Ler mais</a>
                                     </Link>
                                 </div>
                             </div>
@@ -83,13 +80,11 @@ const NewsHome = () => {
                                     </ul>
                                     <h3 className="blog-one__title">
                                         <Link href="/news-details">
-                                        <a>I just wanted to give you a heads-up, or this you
-                                            feel you
-                                            would</a>
+                                        <a>Primeiro Espaço da Juventude, voltado à formação e inclusão de jovens na tecnologia 4.0, é inaugurado na cidade do Rio.</a>
                                         </Link>
                                     </h3>
                                     <Link href="/news-details">
-                                    <a className="blog-one__link">Read More</a>
+                                    <a className="blog-one__link">Ler mais</a>
                                     </Link>
                                 </div>
                             </div>

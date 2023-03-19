@@ -44,7 +44,7 @@ export default class Pricing extends Component {
                             <div className="row pricing-one__price-row">
                                 <div className="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
                                     <div className="pricing-one__single text-center">
-                                        <h3>$20.00</h3>
+                                        <h3>R$20,00</h3>
                                         <p>basic pack</p>
                                         <ul className="list-unstyled">
                                             <li>Extra features</li>
@@ -58,7 +58,7 @@ export default class Pricing extends Component {
                                 </div>
                                 <div className="col-lg-4 wow fadeInDown" data-wow-duration="1500ms">
                                     <div className="pricing-one__single text-center">
-                                        <h3>$30.00</h3>
+                                        <h3>R$50,00</h3>
                                         <p>medium pack</p>
                                         <ul className="list-unstyled">
                                             <li>Extra features</li>
@@ -66,13 +66,13 @@ export default class Pricing extends Component {
                                             <li>Upgrate options</li>
                                             <li>Full access</li>
                                         </ul>
-                                        <a href="#" className="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                        <a href="#" className="thm-btn pricing-one__btn"><span>Realizar doação</span></a>
                                         <span className="tag-line">No hidden charges!</span>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
                                     <div className="pricing-one__single text-center">
-                                        <h3>$40.00</h3>
+                                        <h3>R$100,00</h3>
                                         <p>premium pack</p>
                                         <ul className="list-unstyled">
                                             <li>Extra features</li>
@@ -80,7 +80,7 @@ export default class Pricing extends Component {
                                             <li>Upgrate options</li>
                                             <li>Full access</li>
                                         </ul>
-                                        <a href="#" className="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                        <a href="#" className="thm-btn pricing-one__btn"><span>Realizar doação</span></a>
                                         <span className="tag-line">No hidden charges!</span>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@ export default class Pricing extends Component {
                             <div className="row pricing-one__price-row">
                                 <div className="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
                                     <div className="pricing-one__single text-center">
-                                        <h3>$120.00</h3>
+                                        <h3>R$200,00</h3>
                                         <p>basic pack</p>
                                         <ul className="list-unstyled">
                                             <li>Extra features</li>
@@ -98,13 +98,13 @@ export default class Pricing extends Component {
                                             <li>Upgrate options</li>
                                             <li>Full access</li>
                                         </ul>
-                                        <a href="#" className="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                        <a href="#" className="thm-btn pricing-one__btn"><span>Realizar doação</span></a>
                                         <span className="tag-line">No hidden charges!</span>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 wow fadeInDown" data-wow-duration="1500ms">
                                     <div className="pricing-one__single text-center">
-                                        <h3>$230.00</h3>
+                                        <h3>R$500,00</h3>
                                         <p>medium pack</p>
                                         <ul className="list-unstyled">
                                             <li>Extra features</li>
@@ -118,7 +118,7 @@ export default class Pricing extends Component {
                                 </div>
                                 <div className="col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
                                     <div className="pricing-one__single text-center">
-                                        <h3>$340.00</h3>
+                                        <h3>R$1000,00</h3>
                                         <p>premium pack</p>
                                         <ul className="list-unstyled">
                                             <li>Extra features</li>

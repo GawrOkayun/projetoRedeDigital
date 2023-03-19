@@ -13,14 +13,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>Pre and post launch mobile app marketing pitfalls to avoid</h4>
+                                    <h4>Qual é o valor do serviço?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>O Projeto Rede Digital é uma inicativa completamente gratuita.</p>
                                     </div>
                                 </div>
                             </div>
@@ -28,14 +25,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>Boostup your application traffic is just a step away</h4>
+                                    <h4>Quais projetos podem fazer parte?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>Absolutamente qualquer projeto social gratuito pode fazer parte da Rede Digital.</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,14 +37,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>How to update application new features</h4>
+                                    <h4>Como posso cadastrar meu projeto social?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>O cadastro é feito pelo preenchimento de um simples formulário presente no começo da página.</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,14 +49,11 @@ const Faq = () => {
                         <div className="accrodion active">
                             <div className="accrodion-inner">
                                 <div className="accrodion-title">
-                                    <h4>How to connect with the support to improve app experience</h4>
+                                    <h4>Há algum limite de idade para participar dos programas sociais?</h4>
                                 </div>
                                 <div className="accrodion-content">
                                     <div className="inner">
-                                        <p>There are many variations of passages of available but majority have
-                                            alteration in some by inject humour or random words. Lorem ipsum dolor sit
-                                            amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque
-                                            aliquam.</p>
+                                        <p>Há programas sociais disponíveis para todas as faixas etáreas.</p>
                                     </div>
                                 </div>
                             </div>
