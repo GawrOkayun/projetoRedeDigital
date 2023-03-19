@@ -28,17 +28,16 @@ export default class Pricing extends Component {
             <section className="pricing-one" id="pricing">
                 <div className="container">
                     <div className="block-title text-center">
-                        <h2 className="block-title__title">Choose <span>Pricing Plans</span> Which <br /> Suits Your
-                            Needs.</h2>
+                        <h2 className="block-title__title">Você pode <span>realizar doações</span> que mantém <br /> ONGs funcionando</h2>
                     </div>
                     <ul className="list-inline text-center switch-toggler-list" role="tablist" id="switch-toggle-tab">
-                        <li className={this.state.month ? 'month active' : 'month'}><a href="#">Monthly</a></li>
+                        <li className={this.state.month ? 'month active' : 'month'}><a href="#">Mensal</a></li>
                         <li>
                             <label className={this.state.year ? 'switch off' : 'switch on'}>
                                 <span onClick={this.handleToggle} className="slider round"></span>
                             </label>
                         </li>
-                        <li className={this.state.year ? 'year active' : 'year'}><a href="#">Yearly</a></li>
+                        <li className={this.state.year ? 'year active' : 'year'}><a href="#">Anual</a></li>
                     </ul>
                     <div className="tabed-content">
                         <div id="month" style={{ display: this.state.month ? 'block' : 'none'}}>

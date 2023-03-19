@@ -10,17 +10,17 @@ const CallToActionTwo = () => {
                             <div className="cta-two__content">
                                 <i className="cta-two__icon dimon-icon-data"></i>
                                 <div className="block-title text-left">
-                                    <h2 className="block-title__title">Interact with <span>Customers</span> <br /> on
-                                        Single Platform.</h2>
+                                    <h2 className="block-title__title">Conectando <span>pessoas</span> <br /> em uma única plataforma.</h2>
                                 </div>
                                 <div className="cta-two__text">
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing laborum
-                                        perspiciatis unde.</p>
-                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
-                                        mollit lorem ipsum anim id est.</p>
+                                    <p>A questão social no Brasil é uma fonte inesgotável de estudos e necessidades de aprimoramento. Como o país é enquadrado como uma economai emergente
+                                        a necessidade de justiça social é uma questão a ser garantida.
+                                    </p>
+                                    <p>O Projeto Rede Digital é uma plataforma inovadora, a qual é projetada para difundir o pleno acesso aos Direitos Fundamentais
+                                        decretados na Constituição de 1988.
+                                    </p>
                                 </div>
-                                <a href="#" className="thm-btn"><span>Get Started</span></a>
+                                <a href="#" className="thm-btn"><span>Quero ter acesso a meus direitos!</span></a>
                             </div>
                         </div>
                     </div>
