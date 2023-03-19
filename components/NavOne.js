@@ -85,7 +85,7 @@ export default class NavOne extends Component {
                                     <a href="#pricing">Doações</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#screenshots">Projetos auxiliados</a>
+                                    <a href="#screenshots">Causas defendidas</a>
                                 </li>
                                 <li className="scrollToLink">
                                     <a href="#news">Projetos</a>
