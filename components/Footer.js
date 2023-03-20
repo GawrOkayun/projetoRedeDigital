@@ -68,10 +68,10 @@ export default class Blog extends Component {
                                     </ul>
                                 </div>
                                 <div className="footer-widget">
-                                    <h3 className="footer-widget__title">Services</h3>
+                                    <h3 className="footer-widget__title">Serviços</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">Speed Optimization </a></li>
-                                        <li><a href="#">Marketing Analysis </a></li>
+                                        <li><a href="#">Teste </a></li>
+                                        <li><a href="#">Teste </a></li>
                                         <li><a href="#">SEO and Backlinks </a></li>
                                         <li><a href="#">Content Marketing</a></li>
                                     </ul>

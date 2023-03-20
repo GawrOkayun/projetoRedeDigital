@@ -14,7 +14,7 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-xl-6 col-lg-8">
                             <div className="banner-one__content">
-                                <h3 className="banner-one__title">Conectando quem deseja<br />
+                                <h3 className="banner-one__title">Conectando quem deseja <br />
                                     <span>ajudar</span> com quem precisa de ajuda.</h3>
                                 <p className="banner-one__text">Nosso objetivo é encurtar as distâncias entre projetos sociais <br /> e quem precisa de auxílio.
                                 </p>
