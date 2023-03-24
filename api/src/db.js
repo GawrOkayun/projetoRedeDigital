@@ -6,10 +6,10 @@ const dbUser = process.env.DB_USER;
 const dbHost = process.env.DB_HOST;
 const dbPassword = process.env.DB_PASSWORD;
 
-const sequelize = new Sequelize(dbName, dbUser, dbPassword, {
+const sequelize = new Sequelize({
   //passar os dados para o sequelize
-  dialect: "mysql", //informar o tipo de banco que vamos utilizar
-  host: dbHost, //o host, neste caso estamos com um banco local
+  dialect: "sqlite", //informar o tipo de banco que vamos utilizar
+  storage: './database.sqlite' //o host, neste caso estamos com um banco local
 });
 
 export default sequelize; //exportar

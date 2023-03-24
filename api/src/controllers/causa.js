@@ -8,27 +8,42 @@ function findCausa(req, res) {
   CausaRepository.findByPk(req.params.id).then((result) => res.json(result));
 }
 
-function addCausa(req, res) {
-  CausaRepository.create({
-    nome: req.body.nome,
-    descricao: req.body.descricao,
-  }).then((result) => res.json(result));
+async function addCausa(req, res) {
+  try{
+    const causa = await CausaRepository.create({
+      nome: req.body.nome,
+      descricao: req.body.descricao,
+    })
+
+    res.json(causa);
+  } catch(error){
+    res.status(400).json({ message: error.message });
+  }
 }
 
 async function updateCausa(req, res) {
-  await CausaRepository.update(
-    {
-      nome: req.body.nome,
-      descricao: req.body.descricao,
-    },
-    {
-      where: {
-        id: req.params.id,
+  try{
+    await CausaRepository.update(
+      {
+        nome: req.body.nome,
+        descricao: req.body.descricao,
       },
-    }
-  );
+      {
+        where: {
+          id: req.params.id,
+        },
+      }
+    );
 
-  CausaRepository.findByPk(req.params.id).then((result) => res.json(result));
+    const causaAtualizada = await CausaRepository.findByPk(req.params.id);
+    res.json(causaAtualizada);
+  } catch(error){
+    console.error(error);
+    res.status(500).send('Erro ao atualizar a organização');
+  }
+  
+
+  
 }
 
 async function deleteCausa(req, res) {
