@@ -47,12 +47,9 @@ export default class Pricing extends Component {
                                         <h3>R$20,00</h3>
                                         <p>basic pack</p>
                                         <ul className="list-unstyled">
-                                            <li>Extra features</li>
-                                            <li>Lifetime free support</li>
-                                            <li>Upgrate options</li>
-                                            <li>Full access</li>
+                                            
                                         </ul>
-                                        <a href="#" className="thm-btn pricing-one__btn"><span>Choose Plan</span></a>
+                                        <a href="#" className="thm-btn pricing-one__btn"><span>Realizar doação</span></a>
                                         <span className="tag-line">No hidden charges!</span>
                                     </div>
                                 </div>
