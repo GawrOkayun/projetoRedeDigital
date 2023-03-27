@@ -9,10 +9,25 @@ export default db.define("causa", {
     allowNull: false,
   },
   nome: {
-    type: Sequelize.STRING
+    type: Sequelize.STRING,
+    validate: {
+      notEmpty: {
+        msg: "O campo nome não pode ser vazio"
+      },
+      len:{
+        args: [3,50],
+        msg: "O campo nome deve ter mais de dois caracteres"
+      } 
+    }
   },
   descricao: {
-    type: Sequelize.STRING
+    type: Sequelize.STRING,
+    validate: {
+      max: {
+        args: 150,
+        msg: "A descrição não pode ter mais de 150 caractéres."
+      }
+    }
   },
 }, {
   freezeTableName: true,
