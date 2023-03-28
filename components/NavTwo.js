@@ -61,7 +61,7 @@ export default class NavTwo extends Component {
                         <div className="main-navigation">
                             <ul className=" one-page-scroll-menu navigation-box">
                                 <li className="current scrollToLink">
-                                    <a href="/">Home</a>
+                                    <a href="/">Início</a>
                                     <ul className="sub-menu">
                                         <li><a href="/">Home 01</a></li>
                                         <li><a href="/index-2">Home 02</a></li>
@@ -74,23 +74,23 @@ export default class NavTwo extends Component {
                                     </ul>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#features">Features</a>
+                                    <a href="#features">Como funciona?</a>
 
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#video">Video</a>
+                                    <a href="#video">Video tutorial</a>
 
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#pricing">Pricing</a>
+                                    <a href="#pricing">Doações</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#screenshots">App Screenshots</a>
+                                    <a href="#screenshots">Causas defendidas</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#news">News</a>
+                                    <a href="#news">Projetos</a>
                                     <ul className="sub-menu">
-                                        <li><Link href="/news"><a>News</a></Link></li>
+                                        <li><Link href="/news"><a>Todos os projetos</a></Link></li>
                                         <li><Link href="/news-details"><a>News Details</a></Link></li>
                                     </ul>
                                 </li>

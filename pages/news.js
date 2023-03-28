@@ -8,9 +8,9 @@ import Footer from "../components/Footer";
 
 const NewsPage = () => (
 
-    <Layout pageTitle="Dimon | News">
+    <Layout pageTitle="Projetos">
         <NavTwo />
-        <PageHeader title="News" />
+        <PageHeader title="Todos os projetos" />
         <News />
         <Footer />
     </Layout>

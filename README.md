@@ -1,8 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+## Projeto Rede Digital
 
-First, run the development server:
+[![Resilia Logo](https://github.com/marcosjudd/Portfolio/blob/main/Imagens/Design%20sem%20nome%20(3).png)](https://www.resilia.com.br/)
+
+
+Um sistema on-line criado com o intuito de divulgar projetos sociais e conectá-los a quem precisa de ajuda.
 
 ```bash
 npm run dev

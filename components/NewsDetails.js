@@ -18,7 +18,7 @@ const NewsDetails = () => {
                                         <li><a href="#">2 Comments</a></li>
                                     </ul>
                                     <h3 className="blog-one__title">
-                                        Pre and post launch mobile app marketing pitfalls to avoid
+                                        Ronaldinho de benfica
                                     </h3>
                                     <p className="blog-one__text">There are many variations of passages of available but
                                         majority have
