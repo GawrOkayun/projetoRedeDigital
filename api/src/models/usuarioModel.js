@@ -35,8 +35,10 @@ export default db.define("usuario", {
     type: Sequelize.STRING,
     validate: {
       len: [8, 20],
-      is: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).*$/,
-      msg: 'A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial (!@#$%^&*()_+-=[]{};:\'",.<>/?).'
+      is: {
+        arg: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).*$/,
+        msg: 'A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial (!@#$%^&*()_+-=[]{};:\'",.<>/?).'
+      }
     }
   },
   data_de_nascimento: {
