@@ -13,6 +13,7 @@ const NewsPage = () => (
         <PageHeader title="Todos os projetos" />
         <News />
         <Footer />
+        
     </Layout>
 
 )

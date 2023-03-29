@@ -30,9 +30,9 @@ export default class Counter extends Component {
                             <div className="fact-one__single">
                                 <div className="fact-one__inner">
                                     <h3 className="fact-one__count counter">
-                                        <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 4789 : 0} /></VisibilitySensor>
+                                        123
                                     </h3>
-                                    <p className="fact-one__text">projects</p>
+                                    <p className="fact-one__text">projetos</p>
                                 </div>
                             </div>
                         </div>
@@ -40,9 +40,9 @@ export default class Counter extends Component {
                             <div className="fact-one__single">
                                 <div className="fact-one__inner">
                                     <h3 className="fact-one__count counter">
-                                        <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 6400 : 0} /></VisibilitySensor>
+                                        856
                                     </h3>
-                                    <p className="fact-one__text">customers</p>
+                                    <p className="fact-one__text">Auxiliados</p>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ export default class Counter extends Component {
                             <div className="fact-one__single">
                                 <div className="fact-one__inner">
                                     <h3 className="fact-one__count counter">
-                                        <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 960 : 0} /></VisibilitySensor>
+                                        94
                                     </h3>
-                                    <p className="fact-one__text">success</p>
+                                    <p className="fact-one__text">Inciativas</p>
                                 </div>
                             </div>
                         </div>
@@ -60,9 +60,9 @@ export default class Counter extends Component {
                             <div className="fact-one__single">
                                 <div className="fact-one__inner">
                                     <h3 className="fact-one__count counter">
-                                        <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 378 : 0} /></VisibilitySensor>
+                                        3
                                     </h3>
-                                    <p className="fact-one__text">awards</p>
+                                    <p className="fact-one__text">Prêmios</p>
                                 </div>
                             </div>
                         </div>

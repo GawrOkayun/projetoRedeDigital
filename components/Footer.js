@@ -51,38 +51,37 @@ export default class Blog extends Component {
                                             0000</a></p>
 
                                         <p className="footer-widget__contact"><a
-                                            href="mailto:needhelp@example.com">needhelp@example.com</a></p>
-                                            <p className="footer-widget__contact">855 road, broklyn street <br/> new york
-                                                600</p>
+                                            href="mailto:needhelp@example.com">contato@rededigital.com</a></p>
+                                            <p className="footer-widget__contact">R. Dona Isabel, 700 - Bonsucesso <br/> Rio de Janeiro
+                                            21032-060</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 d-flex justify-content-between footer-widget__links-wrap">
                                 <div className="footer-widget">
                                     <h3 className="footer-widget__title">Explore</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Features</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">How It Works</a></li>
+                                        <li><a href="#">Sobre</a></li>
+                                        <li><a href="#">Nosso time</a></li>
+                                        <li><a href="#">Funcionalidades</a></li>
+
                                     </ul>
                                 </div>
                                 <div className="footer-widget">
                                     <h3 className="footer-widget__title">Serviços</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">Teste </a></li>
-                                        <li><a href="#">Teste </a></li>
-                                        <li><a href="#">SEO and Backlinks </a></li>
-                                        <li><a href="#">Content Marketing</a></li>
+                                        <li><a href="#">Cadastro de projeto</a></li>
+                                        <li><a href="#">Cadastro social </a></li>
+                                        <li><a href="#">Trabalhe conosco </a></li>
+                                        <li><a href="#">Denunciar</a></li>
                                     </ul>
                                 </div>
                                 <div className="footer-widget">
                                     <h3 className="footer-widget__title">Links</h3>
                                     <ul className="footer-widget__links list-unstyled">
-                                        <li><a href="#">Help </a></li>
-                                        <li><a href="#">Support </a></li>
-                                        <li><a href="#">Clients </a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Ajuda </a></li>
+                                        <li><a href="#">Suporte </a></li>
+                                        <li><a href="#">Clientes </a></li>
+                                        <li><a href="#">Contato</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -111,6 +110,7 @@ export default class Blog extends Component {
                 <div onClick={this.scrollTop} className="scroll-to-target scroll-to-top" style={{display: this.state.scrollBtn ? 'block' : 'none'}}><i className="fa fa-angle-up"></i></div>
 
             </div>
+            
         )
     }
 }
