@@ -14,11 +14,12 @@ import Screenshots from "../components/Screenshots";
 import Faq from "../components/Faq";
 import NewsHome from "../components/NewsHome";
 import Subscribe from "../components/Subscribe";
+import { Libras } from "../components/Libras";
 
 
 
 const HomePage = () => (
-
+    
     <Layout pageTitle="Projeto Rede Digital">
         <NavOne />
         <Banner />
@@ -34,8 +35,13 @@ const HomePage = () => (
         <Faq />
         <NewsHome />
         <Subscribe />
+        <Libras />
         <Footer />
+        
+        
     </Layout>
+
+    
 
 )
 

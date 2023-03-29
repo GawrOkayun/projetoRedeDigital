@@ -29,7 +29,7 @@ export default class Video extends Component {
               <ModalVideo
                 channel="youtube"
                 isOpen={this.state.isOpen}
-                videoId="aitb---aDYM"
+                videoId="eDEFolvLn0A"
                 onClose={() => this.setState({ isOpen: false })}
               />
               <div
