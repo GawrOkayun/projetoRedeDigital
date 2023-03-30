@@ -49,6 +49,16 @@ a:visited {
   overflow: hidden;
 }
 
+.formulario{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.formulario input{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
 .thm-base-bg {
   background-color: #ff4eb5;
 }

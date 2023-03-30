@@ -1,5 +1,6 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { Component, useState, useEffect } from 'react'
 import axios from 'axios'
+
 import Link from 'next/link';
 
 const News = () => {
@@ -34,41 +35,44 @@ const News = () => {
 
         return (
             <>
-                {projeto?.map((e) => {
-                    return(
-                    <section className="blog-one">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                                    <div className="blog-one__single">
-                                        <div className="blog-one__image">
-                                            <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
-                                            <Link href="/news-details">
-                                                <a className="blog-one__more-link"><i
-                                                    className="fa fa-link"></i>
-                                                </a>
-                                            </Link>
-                                        </div>
-                                        <div className="blog-one__content">
-                                            <h2>{e.nome}</h2>
-                                            <h3 className="blog-one__title">
-                                                <Link href="/news-details">
-                                                <a>{e.descricao}</a>
-                                                </Link>
-                                            </h3>
-                                            <Link href="/news-details">
-                                            <a className="blog-one__link">Read More</a>
-                                            </Link>
-                                            <h2 onClick={() => deleteProjeto(e.id) }>X</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            
+                <section className="blog-one">
+                    <div className="container">
+                        <div className="row">
+                            {projeto?.map((e) => {
+                                return(
+                                        
+                                            <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                                                <div className="blog-one__single">
+                                                    <div className="blog-one__image">
+                                                        <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
+                                                        <Link href="/news-details">
+                                                            <a className="blog-one__more-link"><i
+                                                                className="fa fa-link"></i>
+                                                            </a>
+                                                        </Link>
+                                                    </div>
+                                                    <div className="blog-one__content">
+                                                        <h2>{e.nome}</h2>
+                                                        <h3 className="blog-one__title">
+                                                            <Link href="/news-details">
+                                                            <a>{e.descricao}</a>
+                                                            </Link>
+                                                        </h3>
+                                                        <Link href="/news-details">
+                                                        <a className="blog-one__link">Read More</a>
+                                                        </Link>
+                                                        <h2 onClick={() => deleteProjeto(e.id) }>X</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                )
+                            })}
                         </div>
-                    </section>)
-                })}
+                    </div>
+                </section>
 
-                <form onSubmit={(e) => {
+                <form className="formulario" onSubmit={(e) => {
                     e.preventDefault();
                     alert('Dados enviados com sucesso!')
                     axios
