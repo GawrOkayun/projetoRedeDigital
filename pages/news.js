@@ -10,7 +10,7 @@ const NewsPage = () => (
 
     <Layout pageTitle="Projetos">
         <NavTwo />
-        <PageHeader title="Todos os projetos" />
+        <PageHeader title="Projetos" />
         <News />
         <Footer />
         

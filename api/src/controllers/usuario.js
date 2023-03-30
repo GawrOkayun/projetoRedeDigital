@@ -49,7 +49,7 @@ async function updateUsuario(req, res) {
     res.json(usuarioAtualizado);
   } catch(error){
     console.error(error);
-    res.status(500).send('Erro ao atualizar a organização');
+    res.status(400).send('Erro ao atualizar o usuario');
   }
 }
 
