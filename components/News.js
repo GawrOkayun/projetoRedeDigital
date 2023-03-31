@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 const News = () => {
         const [projeto, setProjeto] = useState();
+        const [projeto2, setProjeto2] = useState();
 
         useEffect(() => {
             axios
@@ -26,11 +27,34 @@ const News = () => {
               descricao: ''
             }
         );
-    
+
         function handleChange(event){
             const{name, value} = event.target;
         
             setdados({...dados, [name]: value});
+        }
+
+        const [dados2, setdados2] = useState(
+            {
+                id: '',
+              nome: '',
+              descricao: ''
+            }
+        );
+
+        useEffect(() => {
+            axios
+            .get(`http://localhost:3300/causa/${dados2.id}`)
+            .then((resposta) => {
+                setProjeto2(resposta.data)
+            })
+            .catch((erro) => console.log(erro));
+        })
+    
+        function handleChange2(event){
+            const{name, value} = event.target;
+        
+            setdados2({...dados2, [name]: value});
         }
 
         return (
@@ -41,9 +65,8 @@ const News = () => {
                         <div className="row">
                             {projeto?.map((e) => {
                                 return(
-                                        
                                             <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                                                <div className="blog-one__single">
+                                                <div onClick={() => setdados2({id: e.id, nome: e.nome, descricao: e.descricao})} className="blog-one__single">
                                                     <div className="blog-one__image">
                                                         <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
                                                         <Link href="/news-details">
@@ -72,6 +95,29 @@ const News = () => {
                     </div>
                 </section>
 
+                
+                    
+                <form className="formulario" onSubmit={(e) => {
+                    e.preventDefault();
+                    alert('Dados enviados com sucesso!')
+                    axios
+                    .put(`http://localhost:3300/causa/${dados2.id}`, {
+                        nome: dados2.nome,
+                        descricao: dados2.descricao
+                    })
+                    .then(function (response) {
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    })
+                    }}>
+                        <h2>{`Alterar projeto ${dados2.nome}`}</h2>
+                    <input  name='nome' placeholder='Insira o nome do Projeto' onChange={handleChange2} value={dados2.nome}/>
+                    <input name='descricao' placeholder='Sobre o que é o projeto?' onChange={handleChange2} value={dados2.descricao}/>
+                    <input type="submit" value="Submit" />
+                </form>
+
                 <form className="formulario" onSubmit={(e) => {
                     e.preventDefault();
                     alert('Dados enviados com sucesso!')
@@ -87,6 +133,7 @@ const News = () => {
                         console.log(error);
                     })
                     }}>
+                        <h2>Cadastrar novo projeto</h2>
                     <input  name='nome' placeholder='Insira o nome do Projeto' onChange={handleChange}/>
                     <input name='descricao' placeholder='Sobre o que é o projeto?' onChange={handleChange}/>
                     <input type="submit" value="Submit" />
